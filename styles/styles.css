@@ -47,7 +47,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 main img {
