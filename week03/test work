@@ -1,0 +1,64 @@
+/* rafting.css */
+
+/* Define CSS variables */
+:root {
+  --primary-color: #336699; /* Example primary color */
+  --secondary-color: #ffcc00; /* Example secondary color */
+  --text-color: #333; /* Example text color */
+}
+
+/* General styles for headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color); /* Heading text color */
+  /* Add any additional styling you need */
+}
+
+p {
+  color: var(--text-color); /* Paragraph text color */
+  /* Add any additional styling you need */
+}
+
+/* Remove underlines from social media links */
+.social-links a {
+  text-decoration: none;
+}
+
+/* Limiting the entire width of the page */
+body {
+  max-width: 1200px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center align content */
+}
+
+/* Hero Container */
+.hero {
+  position: relative; /* Ensure relative positioning */
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Additional styling for h1 */
+}
+
+.hero article {
+  position: absolute;
+  top: 70%; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Example background color with opacity */
+  padding: 20px;
+  /* Additional styling for article */
+}
+
+.hero article img {
+  float: right; /* Float image to the right */
+  /* Additional styling for image inside article */
+}
