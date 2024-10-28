@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contact Us | White Water Rafting Company</title>
+        <meta name="description" content="Contact us for all information about our services">
+        <meta name="author" content="Nsisong Akpanudo">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header class="header-grid">
+            <img src="images/raftinglogo.png" alt="raftinglogo" width="200">
+            <h1>White Water Rafting company</h1>
+            <nav class="nav-flex">
+                <a href="index.html">homepage</a>
+                <a href="about.html">about</a>
+                <a href="trips.html">trips</a>
+                <a href="contact.html">contact</a>              
+            </nav>
+        </header>
+        <main>
+            <section class="contact-info">
+                <h2>Contact information</h2>
+                <p>Adress: 38 Park Road, Eket, RC 56372</p>
+                <p>Phone: +2347030874782</p>
+                <p>Email: info@whitewaterrafting.com</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7598636840557!2d7.92147877454363!3d4.636876395337929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1067dcfc8100356b%3A0x8ab36bdfc4806483!2s38%20Park%20Road%2C%20Eket%20524101%2C%20Akwa%20Ibom!5e0!3m2!1sen!2sng!4v1730132989322!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="Team-Profile">
+                <h2>Meet Our Team</h2>
+                <div class="Profile-grid">
+                    <figure>
+                        <img src="images/employee1.jpg" alt="Lycia Udo - Guide" >
+                        <figcaption>Lycia Udo - Lead Guide</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee2.jpg" alt="Mark Bs - safety" width="300">
+                        <figcaption>Mark Bs - Safety Manager</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/employee3.jpg" alt="Willie Pupa - Manager" width="300">
+                        <figcaption>Willie Pupa - Operation Manager</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section class="contact form">
+                <h2>Kindly Send Us a Message</h2>
+                <form action="Submit_form.php" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="text" id="email" name="email" required>
+
+                    <p>Purpose of Message:</p>
+                    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+
+                    <button type="submit">Send Us a Message</button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>© 2024 🏋️‍♀️ White Water Rafting company 🏋️‍♀️ Nsisong Akpanudo 🏋️‍♀️ Nigeria </p>
+            <div class="social-links">
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+            </div>
+        </footer>
+    </body>
+</html>
